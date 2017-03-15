@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When selected, show map -->
+    <item android:drawable="@drawable/minussign" android:state_checked="true" />
+    <!-- When not selected, show satellite-->
+    <item android:drawable="@drawable/plussign" android:state_checked="false" />
+</selector>

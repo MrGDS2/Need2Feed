@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Besoin2alimentation</string>
+
+    <string name="title_activity_info"> las information</string>
+    <string name="title_activity_inbox">inbox</string>
+    <!-- TODO: Main translations -->
+    <string name="title_activity_details"> Les détails de l événement</string>
+    <string name="title_activity_freinds_going">amis allant</string>
+    <string name="title_activity_freinds"> Participants de l événement</string>
+    <string name="title_activity_bread_of_life">Le pain de la vie</string>
+    <string name="title_activity_main__menu">Menu principal</string>
+    <string name="TitleMainMenu">Sélectionnez une organisation:</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="Share_Mmenu">Message à un ami</string>
+    <string name="share_using">un message en utilisant</string>
+    <string name="Login">Sidentifier</string>
+    <string name="SignUP">Sinscrire</string>
+    <string name="title_activity_login">
+S identifier</string>
+    <string name="title_activity_events">Événements</string>
+    <string name="RememberMe">Souviens-toi de moi</string>
+    <string name="Email">Courriel</string>
+    <string name="Password">Mot de passe</string>
+    <string name="login_with_password">Sidentifier</string>
+    <string name="Name">prénom</string>
+    <string name="Register">registre</string>
+    <string name="ConfirmPassword">Confirmez le mot de passe</string>
+    <string name="MessageSent"> Message envoyé à partir Avoir besoin2alimentation:</string>
+    <string name="Hello"> Message envoyé à partir Avoir besoin2alimentation:Salut l ami </string>
+    <string name="OrganizationPrompt">las association:Le pain de la vie</string>
+    <string name="On_Feed_Pressed">  Partagez avec le monde!</string>
+    <string name="On_Google_Maps_Pressed">Google Maps: Trouver Pain For Life</string>
+    <string name="On_Events_Pressed">Evènements à Pain de Vie</string>
+    <string name="On_More_info_Pressed">Pain de Vie page Web</string>
+    <string name="GreetingUsers">Bienvenue au Besoin2alimentation</string>
+    <string name="HelloUser">Bonjour</string>
+    <string name="UserSignOut">Au Revoir</string>
+    <string name="Settings">Paramètres</string>
+    <string name="EditProfile">Mon profil</string>
+    <string name="Notifications">
+La Notification</string>
+    <string name="Language">La langue</string>
+
+    <string name="title_activity_friends_going">amis allant</string>
+    <string name="pref_lan_es">Change Language to Español</string>
+    <string name="Es">Spanish</string>
+    <string name="pref_lan_en">Change to English</string>
+    <string name="En">English</string>
+    <string name="fr">French</string>
+    <string name="pref_lan_fr">Change language to French</string>
+    <string name="zh">Chinese(Traditional)</string>
+    <string name="pref_lan_zh">Change language to Chinese</string>
+
+    <!--Map actions-->
+    <string name="OnPressMessage">Voulez-vous aller ici?</string>
+    <string name="UndertitleLocation">Obtenez tour par tour Directions</string>
+
+</resources>

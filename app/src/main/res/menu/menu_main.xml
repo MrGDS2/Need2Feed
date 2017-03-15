@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".StartUp.MainActivity">
+
+
+
+
+
+    <item
+        android:id="@+id/Share_menu"
+        android:orderInCategory="100"
+        android:title="@string/Share_Mmenu"
+        app:showAsAction="always"
+        android:icon="@drawable/message_outline_white" />
+
+
+    <item
+    android:id="@+id/logoutButton"
+    android:orderInCategory="100"
+    android:title="@string/logout"
+    android:icon="@drawable/log_out_small"/>
+
+    <item
+        android:id="@+id/UserSettings"
+        android:orderInCategory="100"
+        android:title="@string/Settings"
+        android:icon="@drawable/settings_icon_menu"/>
+
+
+
+</menu>
+

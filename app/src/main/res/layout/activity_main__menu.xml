@@ -1,0 +1,310 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:id="@+id/main"
+    android:background="@drawable/mainmenu2">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textInbox"
+            android:textSize="30dp"
+            android:text="@string/TitleMainMenu"
+
+
+            style="@style/TextAppearance.Design.CollapsingToolbar.Expanded"
+            android:textStyle="bold|italic" />
+
+
+        <TableRow>
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="1" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="2" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="3" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="4" />
+
+            <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dovelogo"
+            android:id="@+id/BreadOfLife"
+
+            android:onClick="onClick"
+            android:clickable="true"
+            android:paddingLeft="100dp"
+                android:layout_column="5" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="6" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="7" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="8" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="9" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_add"
+                android:id="@+id/test4"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:paddingLeft="100dp"
+                android:layout_column="10" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow>
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="2" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="3" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="4" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_add"
+                android:id="@+id/test2"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:paddingLeft="100dp"
+                android:layout_column="5" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="6" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="7" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="8" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="9" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_add"
+                android:id="@+id/test5"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:paddingLeft="100dp"
+                android:layout_column="10" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="5" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="10" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="5" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="2" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="4" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_add"
+                android:id="@+id/test3"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:paddingLeft="100dp"
+                android:layout_column="5" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="6" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="7" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="8" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_column="9" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_add"
+                android:id="@+id/test"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:paddingLeft="100dp"
+                android:layout_column="10" />
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+
+
+    <!--
+
+-->
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

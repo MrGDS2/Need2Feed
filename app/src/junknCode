@@ -1,0 +1,201 @@
+      Logout of any of the Frameworks. This step is optional, but ensures the user is not logged into
+             * Facebook/Google+ after logging out of DatabaseReference.
+            if (this.mAuth..equals("facebook")) {
+                /* Logout from Facebook */
+                LoginManager.getInstance().logOut();
+
+            }
+            else if (this.mAuth.getProvider().equals("google")) {
+                /* Logout from Google+ */
+                if (mGoogleApiClient.isConnected()) {
+                    Plus.AccountApi.clearDefaultAccount(mGoogleApiClient);
+                    mGoogleApiClient.disconnect();
+                }
+
+
+ mFacebookAccessTokenTracker = new AccessTokenTracker() {
+            @Override
+            protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
+                Log.i(TAG, "Facebook.AccessTokenTracker.OnCurrentAccessTokenChanged");
+               MainActivity.this.onFacebookAccessTokenChange(currentAccessToken);
+            }
+        };
+
+
+  private void onFacebookAccessTokenChange(AccessToken token) {
+
+
+
+        if (token != null) {
+      rootRef.authWithOAuthToken("facebook", token.getToken(), new DatabaseReference.AuthResultHandler() {
+          @Override
+          public void onAuthenticated(AuthData authData) {
+           //   Toast.makeText("Welcome ",,Toast.LENGTH_SHORT);                                          //TODO:Make Facebook greeting
+              DatabaseReferenceAuthlogin();  // The Facebook user is now authenticated with your DatabaseReference app
+          }
+
+          @Override
+          public void onAuthenticationError(DatabaseError DatabaseError) {
+              FailedLogin();
+              DatabaseError.getMessage();
+              Log.e("Facebook---->Login", DatabaseError.getMessage()); // there was an error
+          }
+      });
+        } else {
+        /* Logged out of Facebook so do a logout from the DatabaseReference app */
+           rootRef.unauth();
+        }
+    }
+
+
+
+
+
+
+     AsyncTask<Void, Void, String> task = new AsyncTask<Void, Void, String>() {
+                String errorMessage = null;
+
+                @Override
+                protected String doInBackground(Void... params) {
+                    String token = null;
+
+                    try {
+                        String scope = String.format("oauth2:%s", Scopes.PLUS_LOGIN);
+                        token = GoogleAuthUtil.getToken(MainActivity.this, Plus.AccountApi.getAccountName(mGoogleApiClient), scope);
+                    } catch (IOException transientEx) {
+                        /* Network or server error */
+                        Log.e(TAG, "Error authenticating with Google: " + transientEx);
+                        errorMessage = "Network error: " + transientEx.getMessage();
+                    } catch (UserRecoverableAuthException e) {
+                        Log.w(TAG, "Recoverable Google OAuth error: " + e.toString());
+                        /* We probably need to ask for permissions, so start the intent if there is none pending */
+                        if (!mGoogleIntentInProgress) {
+                            mGoogleIntentInProgress = true;
+                            Intent recover = e.getIntent();
+                            startActivityForResult(recover, RC_GOOGLE_LOGIN);
+                        }
+                    } catch (GoogleAuthException authEx) {
+                        /* The call is not ever expected to succeed assuming you have already verified that
+                         * Google Play services is installed. */
+                        Log.e(TAG, "Error authenticating with Google: " + authEx.getMessage(), authEx);
+                        errorMessage = "Error authenticating with Google: " + authEx.getMessage();
+                    }
+                    return token;
+                }
+
+                @Override
+                protected void onPostExecute(String token) {
+                    mGoogleLoginClicked = false;
+                    if (token != null) {
+                        /* Successfully got OAuth token, now login with Google */
+                        mDatabaseReferenceRef.authWithOAuthToken("google", token, new AuthResultHandler("google"));
+
+                    } else if (errorMessage != null) {
+                        mAuthProgressDialog.hide();
+                        showErrorDialog(errorMessage);
+                    }
+                }
+            };
+            task.execute();
+
+
+
+
+
+
+              @Override
+                protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+                    super.onActivityResult(requestCode, resultCode, data);
+                    Map<String, String> options = new HashMap<String, String>();
+                    if (requestCode == RC_GOOGLE_LOGIN) {
+                        /* This was a request by the Google API */
+                        if (resultCode != RESULT_OK) {
+                            mGoogleLoginClicked = false;
+                        }
+                        mGoogleIntentInProgress = false;
+                        if (!mGoogleApiClient.isConnecting()) {
+                            mGoogleApiClient.connect();
+                        }
+                    } /*else if (requestCode == RC_TWITTER_LOGIN) {
+                        options.put("oauth_token", data.getStringExtra("oauth_token"));
+                        options.put("oauth_token_secret", data.getStringExtra("oauth_token_secret"));
+                        options.put("user_id", data.getStringExtra("user_id"));
+                        authWithDatabaseReference("twitter", options);
+                    }*/ else {
+                        /* Otherwise, it's probably the request by the Facebook login button, keep track of the session */
+                        mFacebookCallbackManager.onActivityResult(requestCode, resultCode, data);
+                    }
+                }
+
+
+
+
+
+                **
+                 * Utility class for authentication results
+                 */
+                private class AuthResultHandler implements DatabaseReference.AuthResultHandler {
+
+                    private final String provider;
+
+                    public AuthResultHandler(String provider) {
+                        this.provider = provider;
+                    }
+
+                    @Override
+                    public void onAuthenticated(FirebaseAuth authData) {
+                        mAuthProgressDialog.hide();
+                        Log.i(TAG, provider + " auth successful");
+                        setAuthenticatedUser(authData);
+                    }
+
+                    @Override
+                    public void onAuthenticationError(DatabaseError DatabaseError) {
+                        mAuthProgressDialog.hide();
+                        showErrorDialog(DatabaseError.toString());
+                    }
+                }
+
+
+
+
+
+
+ private void authWithDatabaseReference(final String provider, Map<String, String> options) {
+        if (options.containsKey("error")) {
+            showErrorDialog(options.get("error"));
+        } else {
+            mAuthProgressDialog.show();
+            if (provider.equals("twitter")) {
+                // if the provider is twitter, we pust pass in additional options, so use the options endpoint
+                rootRef.authWithOAuthToken(provider, options, new AuthResultHandler(provider));
+            } else {
+                // if the provider is not twitter, we just need to pass in the oauth_token
+                rootRef.authWithOAuthToken(provider, options.get("oauth_token"), new AuthResultHandler(provider));
+            }
+        }
+    }
+
+
+      if (!mGoogleApiClient.isConnecting()) {
+                        if (mGoogleConnectionResult != null) {
+                            // resolveSignInError();
+
+
+                        } else if (mGoogleApiClient.isConnected()) {
+                            //   getGoogleOAuthTokenAndLogin();
+
+                            Log.d(TAG, "Trying to get Google auth ");
+                        } else {
+                        /* connect API now */
+                            Log.d(TAG, "Trying to connect to Google API");
+                            mGoogleApiClient.connect();
+                        }
+                    }
+
+                      mGoogleApiClient = new GoogleApiClient.Builder(this)
+                                    .addConnectionCallbacks(this)
+                                    .addOnConnectionFailedListener(this)
+                                    .addApi(Plus.API)
+                                    .addScope(Plus.SCOPE_PLUS_LOGIN)
+                                    .build();

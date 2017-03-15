@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">需要進2</string>
+
+
+
+
+    <!-- TODO: Main translations -->
+    <string name="title_activity_details">活動詳情</string>
+    <string name="title_activity_freinds_going">朋友一起</string>
+    <string name="title_activity_freinds">事件參與者</string>
+    <string name="title_activity_bread_of_life">麵包生命之</string>
+    <string name="title_activity_main__menu">主菜單</string>
+    <string name="TitleMainMenu">選擇一個組織:</string>
+    <string name="logout">登出</string>
+    <string name="Share_Mmenu">消息的朋友</string>
+    <string name="share_using">通過消息</string>
+    <string name="Login">登錄</string>
+    <string name="SignUP">註冊</string>
+    <string name="title_activity_login">登錄</string>
+    <string name="title_activity_events">活動</string>
+    <string name="RememberMe">記住我</string>
+    <string name="Email">電子郵件</string>
+    <string name="Password">密碼</string>
+    <string name="login_with_password">登錄</string>
+    <string name="Name">名稱</string>
+    <string name="Register">寄存器</string>
+    <string name="ConfirmPassword">確認密碼</string>
+    <string name="MessageSent"> 從郵件發送  需要進2 :</string>
+    <string name="Hello"> 從郵件發送  需要進2 :你好朋友 </string>
+    <string name="OrganizationPrompt">組織: 生命之糧</string>
+    <string name="On_Feed_Pressed">與世界分享!</string>
+    <string name="On_Google_Maps_Pressed">谷歌地圖: 尋找生命的麵包</string>
+    <string name="On_Events_Pressed">事件生命之糧</string>
+    <string name="On_More_info_Pressed">生命網頁的麵包</string>
+    <string name="GreetingUsers">歡迎需要的送紙n</string>
+    <string name="HelloUser">你好</string>
+    <string name="UserSignOut">再見</string>
+    <string name="Settings">設置</string>
+    <string name="EditProfile">我的簡歷</string>
+    <string name="Notifications">通知</string>
+    <string name="Language">語言</string>
+    <string name="title_activity_friends_going">朋友去</string>
+    <string name="pref_lan_es">Change Language to Español</string>
+    <string name="Es">Spanish</string>
+    <string name="pref_lan_en">Change to English</string>
+    <string name="En">English</string>
+    <string name="fr">French</string>
+    <string name="pref_lan_fr">Change language to French</string>
+    <string name="zh">Chinese(Traditional)</string>
+    <string name="pref_lan_zh">Change language to Chinese</string>
+
+
+    <!--Map actions-->
+    <string name="OnPressMessage">¿你要去那裡？</string>
+    <string name="UndertitleLocation">獲得轉由轉動方向</string>
+</resources>

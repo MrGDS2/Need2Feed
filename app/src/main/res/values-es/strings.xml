@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Necesidad2Alimentar</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">895330997202974 </string>
+    <string name="ParseAppId"> K5QXTBzFJuuOxtLQ1VgYSG2tM84UccjUtPMPdrZY</string>
+    <string name="ParseClientId"> tnkICokjvBYHhcw6nZD8ydFA9AI3UlQBhmrhxlsT</string>
+    <string name="PayPal_AppId"> APP-8UH80456JV891783C</string>
+
+    <string name="title_activity_inbox">Inbox</string>
+    <string name="title_activity_maps">Maps</string>
+
+
+    <string name="title_activity_event_one">EventONE</string>
+    <string name="title_activity_event_two">EventTWO</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_paycon_credit">PAYconCredit</string>
+
+    <string name="CardName">Card Number</string>
+
+    <string name="BreadOfLifeOrganization">Bread Of Life</string>
+    <string name="DeleteWhenReady">Quick Main Menu</string>
+    <string name="hintDate">3</string>
+    <string name="HintDay">14</string>
+    <string name="BackSlash">/</string>
+    <string name="DigitHint">Three digit security code</string>
+    <string name="title_activity_pay_pal">PayPal</string>
+    <string name="title_activity_sinch_im">SinchIM</string>
+    <string name="title_activity_list_users">ListUsersActivity</string>
+
+
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="message_elipses">Message...</string>
+    <string name="login_activity_label">Sinch Messaging Tutorial</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="APP_KEY">85882f2d-dd81-4367-ac98-d3a95825fcab</string>
+    <string name="APP_SECRET">2KUlgMeXcU+Hs1R9pN23Ww==</string>
+    <string name="login_with_google">login_with_google</string>
+    <string name="title_activity_splash_screen_start">SplashScreenStart</string>
+    <string name="title_activity_register_n2_fuser">RegisterN2FUser</string>
+    <string name="title_activity_login_n2_f">LoginN2F</string>
+    <string name="login_with_password">Iniciar sesión</string>
+    <string name="title_activity_info">Información</string>
+    <string name="title_activity_starting">StartingActivity</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Options">Options</string>
+
+
+
+
+
+
+
+    <!-- TODO: Main translations -->
+    <string name="title_activity_sign_up">Regístrate</string>
+    <string name="Logout">CERRAR SESIÓN</string>
+    <string name="title_activity_login">iniciar sesión</string>
+    <string name="Login">iniciar sesión</string>
+    <string name="SignUP">Regístrate</string>
+    <string name="title_activity_details">Detalles del evento</string>
+
+    <string name="title_activity_bread_of_life">Pan de vida</string>
+    <string name="title_activity_main__menu">Menú principal</string>
+    <string name="TitleMainMenu">Seleccione una organización:</string>
+
+    <string name="logout">Cerrar sesión</string>
+    <string name="Share_Mmenu">Mensaje a un amigo</string>
+    <string name="share_using">mensaje a través de</string>
+
+    <string name="title_activity_events">Eventos</string>
+    <string name="RememberMe">Recuérdame</string>
+    <string name="Email">Correo Electrónico</string>
+    <string name="Password">Contraseña</string>
+    <string name="title_activity_freinds_going">Amigos que se van</string>
+    <string name="title_activity_freinds">Los participantes del evento</string>
+    <string name="Name">Nombre</string>
+    <string name="Register">Registro</string>
+    <string name="ConfirmPassword">Confirmar contraseña</string>
+    <string name="MessageSent">Mensaje Enviado desde necesitamos2Alimentar:</string>
+    <string name="Hello"> Mensaje Enviado desde necesitamos2Alimentar: Hola amigo </string>
+    <string name="OrganizationPrompt">Organización: Pan de Vida</string>
+    <string name="On_Feed_Pressed">  Comparte con el Mundo!</string>
+    <string name="On_Google_Maps_Pressed">mapas de Google: Encuentra Pan de Vida</string>
+    <string name="On_Events_Pressed">Eventos para el pan de vida</string>
+    <string name="On_More_info_Pressed">Pan de la página Web de la Vida</string>
+    <string name="title_activity_friends_going">amigos que vayan</string>
+    <string name="GreetingUsers">Bienvenido a Necesidad2Alimentar</string>
+    <string name="HelloUser">Hola</string>
+    <string name="UserSignOut">Adiós</string>
+    <string name="Settings">Ajustes</string>
+    <string name="EditProfile">Mi perfil</string>
+    <string name="Notifications">Notificaciones</string>
+    <string name="Language">Idioma</string>
+    <string name="pref_lan_es">Change Language to Español</string>
+    <string name="Es">Spanish</string>
+    <string name="pref_lan_en">Change to English</string>
+    <string name="En">English</string>
+    <string name="fr">French</string>
+    <string name="pref_lan_fr">Change language to French</string>
+    <string name="zh">Chinese(Traditional)</string>
+    <string name="pref_lan_zh">Change language to Chinese</string>
+
+    <!--Map actions-->
+    <string name="OnPressMessage">¿Quieres ir aquí?</string>
+    <string name="UndertitleLocation">Obtener giro a giro llegar</string>
+
+</resources>

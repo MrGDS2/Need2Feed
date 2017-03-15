@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.Maps.MapsActivity"/>
+      <point      
+        x = "2228"      
+        y = "184"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.StartUp.SplashScreenStart"/>
+      <point      
+        x = "3152"      
+        y = "84"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.StartUp.MainActivity"/>
+      <point      
+        x = "1272"      
+        y = "-12"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.Signup.RegisterN2FUser"/>
+      <point      
+        x = "-36"      
+        y = "52"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.Login.LoginN2F"/>
+      <point      
+        x = "2612"      
+        y = "-76"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.facebook.FacebookActivity"/>
+      <point      
+        x = "1712"      
+        y = "288"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.Login.Main_Menu"/>
+      <point      
+        x = "2872"      
+        y = "-28"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.Paypal.PayPal"/>
+      <point      
+        x = "2832"      
+        y = "4"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.Inbox"/>
+      <point      
+        x = "-92"      
+        y = "372"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.EventsGooglemaps"/>
+      <point      
+        x = "3284"      
+        y = "228"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.Feedpage.TheFeed"/>
+      <point      
+        x = "88"      
+        y = "568"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "need2feed.george.meliobyte.com.need2feed.BreadofLife.BreadOfLife"/>
+      <point      
+        x = "1176"      
+        y = "708"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

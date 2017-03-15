@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:id="@+id/BFL"
+   >
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tableLayout3">
+
+
+      <TableRow>
+
+            <TextView
+
+                android:text="          Mail"
+                android:textSize="19dp"
+                android:textColor="#00000f"
+                android:layout_column="0"
+
+              />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/inbox"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+
+                android:text="     Events"
+                android:textSize="20dp"
+                android:textColor="#00000f"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/events"
+
+
+                android:clickable="true"
+                android:onClick="onClick"
+    android:layout_marginBottom="10dp"
+
+                android:layout_column="1" />
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <TextView
+
+                android:text="Facebook"
+                android:textSize="20dp"
+                android:textColor="#00000f"
+                android:layout_column="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/feed"
+                android:background="@drawable/share"
+
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_column="1" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/donate"
+                android:background="@drawable/paypal_donate_button"
+
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_column="1" />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/tableLayout3"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:id="@+id/tableLayout">
+
+    <TableRow>
+
+
+    </TableRow>
+
+    <!-- -->
+
+
+
+</TableLayout>
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/GoogleMaps"
+        android:background="@drawable/gps"
+
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_marginTop="272dp"
+        android:layout_alignTop="@+id/tableLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

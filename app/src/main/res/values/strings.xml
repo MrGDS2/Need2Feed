@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">Need2Feed</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">895330997202974 </string>
+    <string name="ParseAppId"> K5QXTBzFJuuOxtLQ1VgYSG2tM84UccjUtPMPdrZY</string>
+    <string name="ParseClientId"> tnkICokjvBYHhcw6nZD8ydFA9AI3UlQBhmrhxlsT</string>
+    <string name="PayPal_AppId"> APP-8UH80456JV891783C</string>
+
+    <string name="title_activity_inbox" translatable="false">Inbox</string>
+    <string name="title_activity_maps" translatable="false">Maps</string>
+
+
+    <string name="title_activity_event_one" translatable="false">EventONE</string>
+    <string name="title_activity_event_two" translatable="false">EventTWO</string>
+    <string name="title_activity_contacts" translatable="false">Contacts</string>
+    <string name="title_activity_paycon_credit" translatable="false">PAYconCredit</string>
+
+    <string name="CardName">Card Number</string>
+
+    <string name="BreadOfLifeOrganization" translatable="false">Bread Of Life</string>
+    <string name="DeleteWhenReady">Quick Main Menu</string>
+    <string name="hintDate" translatable="false">3</string>
+    <string name="HintDay">14</string>
+    <string name="BackSlash">/</string>
+    <string name="DigitHint">Three digit security code</string>
+    <string name="title_activity_pay_pal" translatable="false">PayPal</string>
+    <string name="title_activity_sinch_im" translatable="false">SinchIM</string>
+    <string name="title_activity_list_users" translatable="false">ListUsersActivity</string>
+
+    <string name="Logout">LOGOUT</string>
+    <string name="username" translatable="false">USERNAME</string>
+    <string name="password" translatable="false">PASSWORD</string>
+    <string name="message_elipses" translatable="false">Message...</string>
+    <string name="login_activity_label" translatable="false">Sinch Messaging Tutorial</string>
+    <string name="title_activity_messages" translatable="false">Messages</string>
+    <string name="APP_KEY">85882f2d-dd81-4367-ac98-d3a95825fcab</string>
+    <string name="APP_SECRET">2KUlgMeXcU+Hs1R9pN23Ww==</string>
+    <string name="login_with_google" translatable="false">login_with_google</string>
+    <string name="title_activity_splash_screen_start" translatable="false">SplashScreenStart</string>
+    <string name="title_activity_register_n2_fuser" translatable="false">RegisterN2FUser</string>
+    <string name="title_activity_login_n2_f" translatable="false">LoginN2F</string>
+
+    <string name="title_activity_info">Information</string>
+    <string name="title_activity_starting" translatable="false">StartingActivity</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+
+    <string name="title_activity_sign_up">SignUp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="Options">Options</string>
+
+    <!-- TODO: Main translations -->
+    <string name="title_activity_details"> Event Details</string>
+    <string name="title_activity_freinds_going">Friends Going</string>
+    <string name="title_activity_freinds">Event participants</string>
+    <string name="title_activity_bread_of_life">Bread Of Life</string>
+    <string name="title_activity_main__menu">Main Menu</string>
+    <string name="TitleMainMenu">Select an Organization:</string>
+    <string name="logout">Logout</string>
+    <string name="Share_Mmenu">Message a friend</string>
+    <string name="share_using">Message via</string>
+    <string name="Login">Login</string>
+    <string name="SignUP">Sign UP</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_events">Events</string>
+    <string name="RememberMe">Remember Me</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="login_with_password">Login</string>
+    <string name="Name">Name</string>
+    <string name="Register">Register</string>
+    <string name="ConfirmPassword">Confirm-Password</string>
+    <string name="MessageSent"> Message Sent from Need2Feed:</string>
+    <string name="Hello"> Message Sent from Need2Feed: Hello Friend </string>
+    <string name="OrganizationPrompt">  Organization: Bread of Life</string>
+    <string name="On_Feed_Pressed">  Share with the World!</string>
+    <string name="On_Google_Maps_Pressed">Google Maps: Find Bread For Life</string>
+    <string name="On_Events_Pressed">Events for Bread of Life</string>
+    <string name="On_More_info_Pressed">Bread of Life Web page</string>
+    <string name="GreetingUsers">Welcome to Need2Feed</string>
+    <string name="HelloUser">Hello</string>
+    <string name="UserSignOut">Goodbye</string>
+    <string name="Settings">Settings</string>
+    <string name="EditProfile">My Profile</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Language">Language</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="rating_exit_message">Would you Like to Save your Settings?</string>
+    <string name="rating_exit_title"> Save?</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_lan_es">Change Language to Español</string>
+    <string name="Es">Spanish</string>
+    <string name="pref_lan_en">Change Language to English</string>
+    <string name="En">English</string>
+    <string name="fr">French</string>
+    <string name="pref_lan_fr">Change Language to French</string>
+    <string name="zh">Chinese(Traditional)</string>
+    <string name="pref_lan_zh">Change language to Chinese</string>
+
+
+    <!-- TODO: Event Fragment -->
+    <!--confirmation dialog-->
+    <string name="dialog_title">Agendar una cita</string>
+    <string name="dialog_content">Desea agendar una cita para las </string>
+    <string name="dialog_yes">Agendar</string>
+    <string name="dialog_no">Cancelar</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="exit_dialog_message">Esta seguro que quiere salir de la aplicación?</string>
+    <string name="exit_dialog_yes">Si</string>
+    <string name="exit_dialog_no">No</string>
+
+    <string name="toast_event_overlaps">El evento no puede ser agregado por que la cita se empalma</string>
+    <string name="toast_event_in_the_past">No puede agregar eventos en el pasado</string>
+
+
+    <string name="snack_date_erased">La cita fue borrada</string>
+    <string name="snack_date_undo">Deshacer</string>
+    <string name="dialog_buildt_in_title">Detalles de la cita</string>
+    <string name="DialogTitle">Apartando Lugar</string>
+    <string name="DialogContentPleaseWait">Por favor espere…</string>
+    <string name="toast_error_increment_counter">We couldn\'t communicate with the server, something must be wrong, please try again.</string>
+    <string name="event_reserved">Reservado</string>
+    <string name="toast_no_service_hours">No hay servicio a estas horas, por favor seleccione otra hora.</string>
+    <string name="toast_can_not_delete">you cant delete this because is not yours</string>
+    <string name="nav_drawer_item_calendar">Calendar</string>
+    <string name="nav_drawer_item_settings">Settings</string>
+
+    <!--Menu actions-->
+
+    <string name="action_today">Today</string>
+    <string name="action_day_view">1 Day</string>
+    <string name="action_three_day_view">3 Days</string>
+    <string name="action_week_view">Week</string>
+    <string name="title_activity_calendar_screen">CalendarScreen</string>
+    <string name="Maps_dialog">Bread of Life Rye,NY</string>
+
+
+    <!--Menu actions-->
+    <string name="OnPressMessage">Do you want to go here?</string>
+    <string name="UndertitleLocation">Get turn by turn Directions</string>
+
+    <!--
+
+    <string name="GreetingUsers">Welcome to Need2Feed</string>
+    <string name="GreetingUsers">Welcome to Need2Feed</string>
+    <string name="GreetingUsers">Welcome to Need2Feed</string>
+    <string name="GreetingUsers">Welcome to Need2Feed</string>
+ -->
+</resources>

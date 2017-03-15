@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="need2feed.george.meliobyte.com.need2feed.Info.InfoWebView">
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wv"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <ToggleButton
+        android:id="@+id/plusemore"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plusmoreoptions"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textOff=""
+        android:textOn=""
+        android:layout_gravity="right|bottom" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/emailfab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconrenew2"
+        app:fabSize="normal"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:rippleColor="@android:color/transparent"
+        android:layout_gravity="right|bottom"
+        android:onClick="onClick"
+        android:layout_above="@+id/plusemore"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/callfab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconpi2"
+        app:fabSize="normal"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:rippleColor="@android:color/transparent"
+        android:layout_gravity="left|bottom"
+        android:onClick="onClick"
+        android:layout_above="@+id/emailfab"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

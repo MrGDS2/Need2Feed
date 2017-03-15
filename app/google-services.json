@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "932281468365",
+    "firebase_url": "https://arboreal-melody-118607.firebaseio.com",
+    "project_id": "arboreal-melody-118607",
+    "storage_bucket": "arboreal-melody-118607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932281468365:android:2d951ebe390e0921",
+        "android_client_info": {
+          "package_name": "need2feed.george.meliobyte.com.need2feed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932281468365-p0vn4m7o8bth0j2obsfqsneljhvb44ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "need2feed.george.meliobyte.com.need2feed",
+            "certificate_hash": "56FC9A7585746D0182DF15ACB286C82402FF7E05"
+          }
+        },
+        {
+          "client_id": "932281468365-69naa1hg9v5q8vr1l3iv1if40ssfnt3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJAPQ0sr2-3eVXF-UtDtyZs7y8nZmPl4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932281468365-69naa1hg9v5q8vr1l3iv1if40ssfnt3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

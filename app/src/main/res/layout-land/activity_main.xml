@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/newicon2"
+    tools:context=".StartUp.MainActivity">
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo"
+        android:id="@+id/demo"
+        android:background="#716f6f"
+        android:textColor="#ffffff"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign UP"
+                android:id="@+id/SignupN2F"
+                android:textColor="@color/need2feedbuttonmain"
+                android:background="#000000"
+                android:textSize="40dp"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/LoginN2F"
+                android:textSize="40dp"
+                android:textColor="@color/need2feedbuttonmain"
+                android:background="#000000"
+                android:elegantTextHeight="false"
+                android:clickable="true"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="5dp"/>
+
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="fill_parent"
+                android:text="login_with_facebook"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+
+
+                />
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/login_with_google"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/linearLayout"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
